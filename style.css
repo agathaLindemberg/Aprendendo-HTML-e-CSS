@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Courier New', monospace;
+    background-color: rgb(226, 223, 218);
+}
+
+.container{
+        /*flex todo mundo, align pra centralizar(tudo isso ta pedindo ent achei q era pra por aq), wrap pq pedou, fundo, e a distancia*/
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px dotted black;
+    background-color: rgb(8, 88, 63);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px
+}
+
+.container h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.container li{
+    /*inline pra ficar do lado do outro, eu queria usar pra ir aculá o space*/
+    display: inline;
+    margin: 0 30px;
+}
+
+.container li a{
+    color: white;
+    text-decoration: none;
+}
+.container li a:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.historiaDela{
+    padding: 30px 50px;
+}
+
+.historiaDela h1{
+    display: flex;
+    color:  rgb(8, 88, 63);
+    font-size:25px;
+    justify-content: center;
+}
+
+.historiaDela #borda1{
+    padding: 20px 0;
+    background-color: rgb(223, 206, 177);
+    border-style: dotted;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.historiaDela p{
+    text-align: justify;
+    text-indent: 5ch;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-style:inherit;
+    margin: 0 40px;
+}
+
+.profissoes,.individualidades,.defeitos,.estiloDeCombate{
+    font-family: 'League Spartan', sans-serif;
+    padding: 30px 50px; 
+}
+
+.bordaProfissao,.bordaIndividualidades,.bordaDefeitos,.bordaEstiloDeCombate{
+    padding: 20px 0;
+    background-color: rgb(223, 206, 177);
+    border-style: dotted;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cozinheiro h3{
+    display: flex;
+    color: rgb(8, 88, 63);
+    font-size:25px;
+    justify-content: center;
+}
+
+.individualidadesGerais h3{
+    display: flex;
+    color: rgb(8, 88, 63);
+    font-size:25px;
+    justify-content: center;
+}
+
+.defeitosGerais h3{
+    display: flex;
+    color:  rgb(8, 88, 63);
+    font-size:25px;
+    justify-content: center;
+}
+
+.guerrilheiro h3{
+    display: flex;
+    color:  rgb(8, 88, 63);
+    font-size:25px;
+    justify-content: center;
+}
+
+.cozinheiro,.individualidadesGerais,.defeitosGerais,.guerrilheiro p{
+    text-align: justify;
+    text-indent: 5ch;
+    font-style:inherit;
+    margin: 0 40px;
+}
+
+.cozinheiro,.guerrilheiro ul{
+    text-align: justify;
+    font-style:inherit;
+    margin: 0 60px;
+}
+
+.rodape{
+display: flex;
+align-items: center;
+border-top: 1px dotted black;
+background-color: rgb(8, 88, 63);
+justify-content: center;
+padding: 5px 30px
+}
+
+.rodape p{
+    color: white;
+}
